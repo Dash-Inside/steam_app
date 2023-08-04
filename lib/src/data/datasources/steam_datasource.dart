@@ -11,15 +11,21 @@ abstract class SteamDatasource {
 class SteamDatasourceImpl implements SteamDatasource {
   @override
   Future<ProfileModel> getModelByID(String id) async {
-    var uri = Uri.https('playerdb.co/api/player/steam/$id');
-
-    print(uri);
+features/backend
+    var uri = Uri.https(
+      'playerdb.co',
+      '/api/player/steam/$id',
+    );
 
     final http.Response response = await http.get(uri);
-    final jsonResult = jsonDecode(response.body)['data']['player']['meta'];
+    final jsonResult = jsonDecode(response.body)['data']['player'];
 
-    print(jsonResult);
+    ProfileModel profileModel = ProfileModel(
+      id: jsonResult['id'],
+      userName: jsonResult['username'],
+      avatar: jsonResult['avatar'],
+    );
 
-    return ProfileModel(id: '', userName: '', avatar: 'avatar');
+    return profileModel;
   }
 }
