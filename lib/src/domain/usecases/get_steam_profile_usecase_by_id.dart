@@ -7,7 +7,7 @@ import 'package:steam/src/domain/repositories/steam_repository.dart';
 
 class GetSteamProfileUseCase extends UseCase<SteamProfile, String> {
   final SteamRepository steamRepository;
-
+  
   GetSteamProfileUseCase({
     required this.steamRepository,
   });
