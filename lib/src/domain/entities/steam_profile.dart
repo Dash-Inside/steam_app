@@ -6,9 +6,9 @@ class SteamProfile extends Equatable {
   final String avatar;
 
   const SteamProfile({
+    required this.id,
     required this.userName,
     required this.avatar,
-    required this.id,
   });
 
   @override
