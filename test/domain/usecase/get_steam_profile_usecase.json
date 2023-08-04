@@ -1,0 +1,33 @@
+{
+    "code": "player.found",
+    "message": "Successfully found player by given ID.",
+    "data": {
+        "player": {
+            "meta": {
+                "steam2id": "STEAM_0:0:561061064",
+                "steam2id_new": "STEAM_1:0:561061064",
+                "steam3id": "[U:1:1122122128]",
+                "steam64id": "76561199082387856",
+                "steamid": "76561199082387856",
+                "communityvisibilitystate": 3,
+                "profilestate": 1,
+                "personaname": "Dead1nside",
+                "commentpermission": 1,
+                "profileurl": "https://steamcommunity.com/id/FEN1XYKUS/",
+                "avatar": "https://avatars.steamstatic.com/fb18b7dc8403a2f63a8a352f2c3ccb63a9ec76f9.jpg",
+                "avatarmedium": "https://avatars.steamstatic.com/fb18b7dc8403a2f63a8a352f2c3ccb63a9ec76f9_medium.jpg",
+                "avatarfull": "https://avatars.steamstatic.com/fb18b7dc8403a2f63a8a352f2c3ccb63a9ec76f9_full.jpg",
+                "avatarhash": "fb18b7dc8403a2f63a8a352f2c3ccb63a9ec76f9",
+                "personastate": 0,
+                "primaryclanid": "103582791438658140",
+                "timecreated": 1597259909,
+                "personastateflags": 0,
+                "loccountrycode": "GB"
+            },
+            "id": "76561199082387856",
+            "avatar": "https://avatars.steamstatic.com/fb18b7dc8403a2f63a8a352f2c3ccb63a9ec76f9_full.jpg",
+            "username": "Dead1nside"
+        }
+    },
+    "success": true
+}
