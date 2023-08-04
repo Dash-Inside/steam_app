@@ -12,7 +12,7 @@ class GetSteamProfileUseCase extends UseCase<SteamProfile, String> {
   });
 
   @override
-  Future<Either<Failure, SteamProfile>> call(String params) {
+  Future<Either<Failure, SteamProfile>> call(String params) async {
     // TODO: implement call
     throw UnimplementedError();
   }
