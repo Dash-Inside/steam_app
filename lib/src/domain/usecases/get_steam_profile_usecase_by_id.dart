@@ -7,13 +7,13 @@ import 'package:steam/src/domain/repositories/steam_repository.dart';
 
 class GetSteamProfileUseCase extends UseCase<SteamProfile, String> {
   final SteamRepository steamRepository;
+  
   GetSteamProfileUseCase({
     required this.steamRepository,
   });
 
   @override
   Future<Either<Failure, SteamProfile>> call(String params) async {
-    // TODO: implement call
-    throw UnimplementedError();
+    return await steamRepository.getSteamProfile(id: params);
   }
 }
