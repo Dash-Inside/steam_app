@@ -28,7 +28,7 @@ void main() {
       );
 
       // Arrange
-      final getProfile = GetSteamProfileUseCase(steamProfile: steamProfile);
+      final getProfile = GetSteamProfileUseCase(steamRepository: steamRepository);
       final res = await getProfile.call(id);
 
       // Assett
