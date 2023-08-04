@@ -37,17 +37,13 @@ class _FakeEither_0<L, R> extends _i1.SmartFake implements _i2.Either<L, R> {
 /// See the documentation for Mockito's code generation for more information.
 class MockSteamRepository extends _i1.Mock implements _i3.SteamRepository {
   @override
-  _i4.Future<_i2.Either<_i5.Failure, _i6.SteamProfile>> getSteamProfile(
-          {required String? id}) =>
-      (super.noSuchMethod(
+  _i4.Future<_i2.Either<_i5.Failure, _i6.SteamProfile>> getSteamProfile({required String? id}) => (super.noSuchMethod(
         Invocation.method(
           #getSteamProfile,
           [],
           {#id: id},
         ),
-        returnValue:
-            _i4.Future<_i2.Either<_i5.Failure, _i6.SteamProfile>>.value(
-                _FakeEither_0<_i5.Failure, _i6.SteamProfile>(
+        returnValue: _i4.Future<_i2.Either<_i5.Failure, _i6.SteamProfile>>.value(_FakeEither_0<_i5.Failure, _i6.SteamProfile>(
           this,
           Invocation.method(
             #getSteamProfile,
@@ -55,9 +51,7 @@ class MockSteamRepository extends _i1.Mock implements _i3.SteamRepository {
             {#id: id},
           ),
         )),
-        returnValueForMissingStub:
-            _i4.Future<_i2.Either<_i5.Failure, _i6.SteamProfile>>.value(
-                _FakeEither_0<_i5.Failure, _i6.SteamProfile>(
+        returnValueForMissingStub: _i4.Future<_i2.Either<_i5.Failure, _i6.SteamProfile>>.value(_FakeEither_0<_i5.Failure, _i6.SteamProfile>(
           this,
           Invocation.method(
             #getSteamProfile,
